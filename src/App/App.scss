@@ -14,10 +14,19 @@
   h1 {
     font-size: 130px;
     line-height: 156px;
+
+    @media (max-width: 768px) {
+      font-size: 110px;
+    }
   }
 
   h2 {
-    font-size: 156px;
+    font-size: 120px;
+
+    @media (max-width: 768px) {
+      font-size: 110px;
+      line-height: 90px;
+    }
 
     a {
       text-decoration: none;
@@ -25,8 +34,8 @@
   }
 
   h3 {
-    font-size: 72px;
-    line-height: 72px;
+    font-size: 70px;
+    line-height: 70px;
   }
 
   a {
@@ -36,20 +45,23 @@
   p {
     color: #000000;
     font-family: Times;
-    font-size: 48px;
+    font-size: 36px;
     line-height: 129.99%;
 
     text-align: center;
     letter-spacing: 0.01em;
 
     word-break: break-word;
+
+    @media (max-width: 768px) {
+      font-size: 30px;
+    }
   }
 
   footer {
     background-color: #5c2901;
     font-family: MoonTime;
-    font-size: 48px;
-    padding: 8px 0;
+    font-size: 40px;
     color: white;
   }
 
