@@ -28,7 +28,7 @@ function App (): JSX.Element {
         <h2>Detalhes</h2>
         <p>
           O casamento realiza-se no dia 10 de Setembro, pelas 15h, na{' '}
-          <a href='/'>Quinta de Mouriz</a>.
+          <a href='https://goo.gl/maps/MjWHqL6tgTojAPJo9'>Quinta de Mouriz</a>.
         </p>
         <img src={raminho} className='raminho' alt='raminho' />
       </Section>
