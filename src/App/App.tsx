@@ -36,12 +36,12 @@ function App (): JSX.Element {
         <h2>
           <a href='/'>Confirma aqui</a>
         </h2>
-        <img src={underline} className='underline' />
-        <img src={photo0} className='photo' />
-        <img src={photo1} className='photo' />
-        <img src={photo2} className='photo' />
-        <img src={photo3} className='photo' />
-        <img src={photo4} className='photo' />
+        <img src={underline} className='underline' alt='mi-ri-1' />
+        <img src={photo0} className='photo' alt='mi-ri-2' />
+        <img src={photo1} className='photo' alt='mi-ri-3' />
+        <img src={photo2} className='photo' alt='mi-ri-4' />
+        <img src={photo3} className='photo' alt='mi-ri-5' />
+        <img src={photo4} className='photo' alt='mi-ri-6' />
       </Section>
       <footer>
         <span>{`2021 - feito com <3`}</span>
