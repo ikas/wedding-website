@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Moontime";
+  src: local('Moontime-Regular'), url(assets/MoonTime-Regular.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: "Alatsi";
+  src: local('Alatsi-Regular'), url(assets/Alatsi-Regular.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: "TimesNewRoman";
+  src: local('TimesNewRoman.ttf'), url(assets/TimesNewRoman.ttf) format('ttf');
+}

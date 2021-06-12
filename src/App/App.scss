@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+  color: #19110b;
+
+  h1,
+  h2,
+  h3 {
+    font-family: Moontime;
+    font-weight: normal;
+    margin: 0;
+    word-break: break-word;
+  }
+
+  h1 {
+    font-size: 130px;
+    line-height: 156px;
+  }
+
+  h2 {
+    font-size: 156px;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  h3 {
+    font-size: 72px;
+    line-height: 72px;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  p {
+    color: #000000;
+    font-family: Times;
+    font-size: 48px;
+    line-height: 129.99%;
+
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    word-break: break-word;
+  }
+
+  footer {
+    background-color: #5c2901;
+    font-family: MoonTime;
+    font-size: 48px;
+    padding: 8px 0;
+    color: white;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .details {
+    background-color: #fafafb;
+
+    img.rings {
+      margin-bottom: 60px;
+      margin-top: 60px;
+      height: 220px;
+    }
+  }
+
+  .confirmations {
+    h2 {
+      margin: 100px 0;
+    }
+
+    .underline {
+      width: 580px;
+      margin-top: 60px;
+      top: 80px;
+      position: absolute;
+      left: 50%;
+      margin-left: -290px;
+      display: none;
+
+      $breakpoint-tablet: 768px;
+      @media (min-width: $breakpoint-tablet) {
+        display: block;
+      }
+    }
+  }
+}

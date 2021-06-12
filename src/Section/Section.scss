@@ -1,0 +1,18 @@
+section {
+  padding: 20px 0;
+  $breakpoint-tablet: 768px;
+
+  @media (min-width: 400px) and (max-width: $breakpoint-tablet) {
+    padding: 40px 20px;
+  }
+
+  @media (min-width: $breakpoint-tablet) {
+    padding: 80px;
+  }
+
+  .container {
+    max-width: 1039px;
+    position: relative;
+    margin: 0 auto;
+  }
+}
