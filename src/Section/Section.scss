@@ -1,9 +1,11 @@
+$breakpoint-tablet: 768px;
+
 section {
-  padding: 40px 10px;
-  $breakpoint-tablet: 768px;
+  padding: 60px 10px;
+  background-color: white;
 
   @media (min-width: 400px) and (max-width: $breakpoint-tablet) {
-    padding: 40px 20px;
+    padding: 60px 20px;
   }
 
   @media (min-width: $breakpoint-tablet) {

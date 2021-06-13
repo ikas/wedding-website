@@ -1,3 +1,11 @@
+$breakpoint-tablet: 768px;
+
+body {
+  @media (max-width: 768px) {
+    background-color: #5c2901;
+  }
+}
+
 .App {
   text-align: center;
   color: #19110b;
@@ -15,7 +23,7 @@
     font-size: 130px;
     line-height: 156px;
 
-    @media (max-width: 768px) {
+    @media (max-width: $breakpoint-tablet) {
       font-size: 110px;
     }
   }
@@ -23,7 +31,7 @@
   h2 {
     font-size: 120px;
 
-    @media (max-width: 768px) {
+    @media (max-width: $breakpoint-tablet) {
       font-size: 110px;
       line-height: 90px;
     }
@@ -53,7 +61,7 @@
 
     word-break: break-word;
 
-    @media (max-width: 768px) {
+    @media (max-width: $breakpoint-tablet) {
       font-size: 30px;
     }
   }
@@ -75,7 +83,19 @@
     img.rings {
       margin-bottom: 60px;
       margin-top: 60px;
-      height: 220px;
+      height: 180px;
+
+      @media (max-width: $breakpoint-tablet) {
+        height: 120px;
+      }
+    }
+
+    img.raminho {
+      height: 132px;
+
+      @media (max-width: $breakpoint-tablet) {
+        display: none;
+      }
     }
   }
 
@@ -93,7 +113,6 @@
       margin-left: -290px;
       display: none;
 
-      $breakpoint-tablet: 768px;
       @media (min-width: $breakpoint-tablet) {
         display: block;
       }
