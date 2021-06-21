@@ -34,7 +34,7 @@ function App (): JSX.Element {
       </Section>
       <Section className='confirmations'>
         <h2>
-          <a href='/'>Confirma aqui</a>
+          <a href='mailto:henriquejcpacheco@gmail.com?subject=Confirmar%20presen%C3%A7a&body=Ol%C3%A1%20Henrique%20e%20Mariana%2C%20queria%20confirmar%20a%20presen%C3%A7a%20no%20vosso%20casamento.%20O%20meu%20nome%20%C3%A9%3A'>Confirma aqui</a>
         </h2>
         <img src={underline} className='underline' alt='mi-ri-1' />
         <img src={photo0} className='photo' alt='mi-ri-2' />
